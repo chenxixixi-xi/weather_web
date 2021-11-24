@@ -1,7 +1,9 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <HelloWorld msg="Weather data  "/>
+    <!-- <a :href="'https://api.caiyunapp.com/v2/place?token=VKC3aGqblsPQTRQT&lang=en_US&query=s'">Get latitude and longitude;    </a>
+    <a :href="'https://api.caiyunapp.com/v2.5/VKC3aGqblsPQTRQT/-69.86667,18.49333/realtime.json?lang=en_US'">Get weather data based on latitude and longitude </a> -->
+
   </div>
 </template>
 
